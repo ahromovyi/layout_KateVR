@@ -75,7 +75,12 @@
       display: block;
       width: auto;
       height: 80px;
+      transition: transform $transition-duration $transition-timing;
     }
+  }
+
+  &__item:hover &__icon {
+    transform: scale(1.1);
   }
 
   &__item-title {

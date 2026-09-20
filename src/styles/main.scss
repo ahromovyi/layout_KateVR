@@ -22,8 +22,7 @@ body {
   background-color: $c-black;
 }
 
-body:has(.menu:target),
-body.page--locked {
+body:has(.menu:target) {
   overflow: hidden;
 }
 
